@@ -44,8 +44,9 @@ h1,h2,h3,h4 { font-family: var(--font-display); letter-spacing: -.02em; line-hei
 /* NAV */
 .nav { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(12px); background: rgba(26,22,18,.7); border-bottom: 1px solid var(--border); }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; }
-.brand { display: flex; align-items: center; gap: .5rem; font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; }
-.brand-mark { color: var(--lime); font-size: 1.5rem; }
+.brand { display: flex; align-items: center; gap: .75rem; font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; }
+.brand-logo { width: 28px; height: 28px; border-radius: 6px; }
+.brand-name { color: var(--fg); }
 .nav-links { display: flex; align-items: center; gap: 1.5rem; font-family: var(--font-mono); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
 .nav-links a { color: var(--muted); transition: color .2s; }
 .nav-links a:hover { color: var(--fg); }
@@ -146,7 +147,7 @@ h1,h2,h3,h4 { font-family: var(--font-display); letter-spacing: -.02em; line-hei
   .sidebar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
 }
 
-.grid-dual {
+.grid-main {
   display: flex;
   gap: 1.25rem;
   align-items: flex-start;
@@ -159,7 +160,7 @@ h1,h2,h3,h4 { font-family: var(--font-display); letter-spacing: -.02em; line-hei
   min-width: 0;
 }
 @media (max-width: 640px) {
-  .grid-dual { flex-direction: column; }
+  .grid-main { flex-direction: column; }
 }
 
 /* CARD */
