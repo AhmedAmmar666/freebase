@@ -1,0 +1,44 @@
+<div
+  id="card-{% if group.host %}{{ group.host|slugify }}{% else %}{{ group.tools.0.id }}{% endif %}"
+  class="card accent-{{ group.accent }} {% if group.featured %}card-featured{% endif %}"
+  data-name="{{ group.name|lower }} {% for t in group.tools %}{{ t.name|lower }} {% endfor %}"
+  data-desc="{{ group.category|lower }} {% for t in group.tools %}{{ t.description|lower }} {% endfor %}"
+  data-category="{{ group.filter_categories|join:',' }}"
+>
+  <div class="thumb">
+    {% if group.logo %}
+      <img src="{{ group.logo.url }}" alt="{{ group.name }}" class="logo-img" />
+    {% else %}
+      <span class="glyph">{{ group.glyph }}</span>
+    {% endif %}
+    <div class="thumb-meta">
+      <span class="cat-pill">{{ group.category }}</span>
+      <span class="host">{{ group.host }}</span>
+    </div>
+  </div>
+  
+  <h3 class="card-title">{{ group.name }}</h3>
+  
+  {% if group.is_grouped %}
+    <ul class="tool-list">
+      {% for t in group.tools %}
+        <li>
+          <a href="{{ t.url }}" target="_blank" rel="noopener" class="tool-link">
+            <strong>{{ t.name }}</strong> ↗
+          </a>
+          <p class="tool-desc-small">{{ t.description }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {% with tool=group.tools.0 %}
+      <p class="card-tag">{{ tool.tagline }}</p>
+      <p class="card-desc">{{ tool.description }}</p>
+      <div class="card-foot">
+        <a href="{{ tool.url }}" target="_blank" rel="noopener" class="visit-btn">
+          Visit site <span class="arrow">↗</span>
+        </a>
+      </div>
+    {% endwith %}
+  {% endif %}
+</div>

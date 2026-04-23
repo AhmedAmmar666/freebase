@@ -1,0 +1,227 @@
+<!DOCTYPE html><html lang="en"><head>    
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarAPI.dev - Automotive Data API Platform</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Access comprehensive automotive data through CarAPI.dev - VIN decoding, vehicle history, stolen vehicle checks, and more. Start with our free tier today.">
+    <meta name="keywords" content="car api, automotive api, vin decoder, vehicle data api, stolen vehicle check, automotive platform">
+    <meta name="author" content="CarAPI.dev">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="CarAPI.dev - Automotive Data API Platform">
+    <meta property="og:description" content="Access comprehensive automotive data through CarAPI.dev - VIN decoding, vehicle history, stolen vehicle checks, and more. Start with our free tier today.">
+    <meta property="og:image" content="https://carapi.dev/og.webp">
+    <meta property="og:url" content="https://carapi.dev">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CarAPI.dev">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CarAPI.dev - Automotive Data API Platform">
+    <meta name="twitter:description" content="Access comprehensive automotive data through CarAPI.dev - VIN decoding, vehicle history, stolen vehicle checks, and more. Start with our free tier today.">
+    <meta name="twitter:image" content="https://carapi.dev/og.webp">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://carapi.dev">
+
+    <!-- AI Discovery -->
+    <link rel="llms" href="/llms.txt" type="text/plain" title="LLM-readable site information">
+    <link rel="alternate" href="https://api.carapi.dev/openapi.json" type="application/json" title="OpenAPI Specification">
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-17382566448&amp;cx=c&amp;gtm=4e6340"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-C0WXBYR5DC&amp;cx=c&amp;gtm=4e6340"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TS2NQJM9"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://carapi.dev/#organization",
+          "name": "CarAPI.dev",
+          "url": "https://carapi.dev",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://carapi.dev/favicon.svg"
+          },
+          "description": "Automotive Data API Platform providing comprehensive vehicle information through easy-to-use REST APIs.",
+          "sameAs": []
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://carapi.dev/#website",
+          "url": "https://carapi.dev",
+          "name": "CarAPI.dev",
+          "description": "Automotive Data API Platform",
+          "publisher": {
+            "@id": "https://carapi.dev/#organization"
+          }
+        },
+        {
+          "@type": "WebAPI",
+          "@id": "https://carapi.dev/#api",
+          "name": "CarAPI.dev Automotive Data API",
+          "description": "Comprehensive automotive data API providing VIN decoding, vehicle history, stolen vehicle checks, valuations, mileage history, and more through reliable REST endpoints.",
+          "url": "https://api.carapi.dev",
+          "documentation": "https://docs.carapi.dev",
+          "provider": {
+            "@id": "https://carapi.dev/#organization"
+          },
+          "termsOfService": "https://carapi.dev/terms",
+          "availableOnDevice": "Desktop, Mobile, Server",
+          "browserRequirements": "Requires JavaScript for documentation site",
+          "softwareVersion": "1.0.0",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "Any"
+        },
+        {
+          "@type": "Product",
+          "@id": "https://carapi.dev/#product-free",
+          "name": "CarAPI.dev Free Plan",
+          "description": "100 API requests per month, access to all endpoints. Perfect for testing and small projects.",
+          "image": "https://carapi.dev/og.webp",
+          "brand": {
+            "@type": "Brand",
+            "name": "CarAPI.dev"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "EUR",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://carapi.dev/signup"
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "https://carapi.dev/#product-starter",
+          "name": "CarAPI.dev Starter Plan",
+          "description": "5,000 API requests per month, all endpoints, priority support. Great for growing applications.",
+          "image": "https://carapi.dev/og.webp",
+          "brand": {
+            "@type": "Brand",
+            "name": "CarAPI.dev"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "29",
+            "priceCurrency": "EUR",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://carapi.dev/signup"
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "https://carapi.dev/#product-professional",
+          "name": "CarAPI.dev Professional Plan",
+          "description": "25,000 API requests per month, all endpoints, priority support, advanced analytics. For established businesses.",
+          "image": "https://carapi.dev/og.webp",
+          "brand": {
+            "@type": "Brand",
+            "name": "CarAPI.dev"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "89",
+            "priceCurrency": "EUR",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://carapi.dev/signup"
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "https://carapi.dev/#product-business",
+          "name": "CarAPI.dev Business Plan",
+          "description": "100,000 API requests per month, all endpoints, dedicated support, SLA guarantee. For high-volume applications.",
+          "image": "https://carapi.dev/og.webp",
+          "brand": {
+            "@type": "Brand",
+            "name": "CarAPI.dev"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "249",
+            "priceCurrency": "EUR",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://carapi.dev/signup"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://carapi.dev/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is CarAPI.dev?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "CarAPI.dev is an automotive data API platform that provides comprehensive vehicle information through easy-to-use REST APIs. Our services include VIN decoding, stolen vehicle checks, vehicle valuations, mileage history, inspection data, and more."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What endpoints does CarAPI.dev offer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "CarAPI.dev offers 9 API endpoints: VIN Decode, Plate to VIN, Stolen Vehicle Check, Vehicle Inspection, Vehicle Listing, Vehicle Photos, Vehicle Payments Calculator, Vehicle Valuation, and Mileage History."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is there a free tier available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, CarAPI.dev offers a free tier with 100 API requests per month, giving you access to all endpoints. It's perfect for testing and small projects."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I authenticate API requests?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "All API requests require an API token passed as a query parameter (?token=your_token). You can obtain your API token by signing up at carapi.dev and accessing your dashboard."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C0WXBYR5DC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-C0WXBYR5DC');
+      gtag('config', 'AW-17382566448'); // Adwords
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TS2NQJM9');</script>
+    <!-- End Google Tag Manager -->
+
+    <script defer="" src="https://cloud.umami.is/script.js" data-website-id="6f82beb8-61db-4766-bb4b-51ce2ec688cd"></script>
+    <script type="module" crossorigin="" src="/assets/index-78qoU8JU.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-iIKq2a_D.css">
+  <style id="_goober"> @keyframes go2264125279{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go3020080000{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go463499852{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go1310225428{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go651618207{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go901347462{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}}.go4109123758{z-index:9999;}.go4109123758 > *{pointer-events:auto;}</style><script src="https://js.stripe.com/basil/stripe.js"></script></head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TS2NQJM9"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="app"><div class="min-h-screen bg-gray-900 text-white overflow-x-hidden"><nav class="fixed top-0 w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-between items-center h-16"><a class="flex items-center space-x-2" href="/" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-car h-8 w-8 text-purple-400" aria-hidden="true"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg><span class="text-xl font-bold">CarAPI.dev</span></a><div class="hidden md:flex space-x-8"><a href="#features" class="text-gray-300 hover:text-white transition-colors">API Services</a><a href="#pricing" class="text-gray-300 hover:text-white transition-colors">Pricing</a><a href="https://docs.carapi.dev" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors">Docs</a></div><div class="relative flex items-center space-x-4"><a class="text-gray-300 hover:text-white transition-colors" href="/signin" data-discover="true">Sign In</a><a class="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg transition-all duration-200 hover:scale-105" href="/signup" data-discover="true">Sign Up</a></div></div></div></nav><section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8"><div class="max-w-7xl mx-auto"><div class="text-center transform transition-all duration-1000 translate-y-0 opacity-100"><div class="inline-flex items-center space-x-2 bg-purple-900/30 border border-purple-800/50 rounded-full px-4 py-2 mb-8"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap h-4 w-4 text-purple-400" aria-hidden="true"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg><span class="text-sm text-purple-300">Trusted by 10,000+ developers</span></div><h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6"><span class="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">Automotive</span><br>Data API</h1><p class="text-xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed">Comprehensive automotive data API for VIN decoding, license plate lookup, vehicle listings, and photos. Build automotive applications with reliable, real-time data.</p><div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="https://carapi.dev/dashboard" class="group bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:scale-105 flex items-center justify-center space-x-2"><span>Get API Key</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-4 w-4 group-hover:translate-x-1 transition-transform" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a href="https://docs.carapi.dev" target="_blank" rel="noopener noreferrer" class="border border-gray-700 hover:border-gray-600 px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-gray-800/50 inline-block">API Documentation</a></div></div></div></section><section id="features" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800/50"><div class="max-w-7xl mx-auto"><div class="text-center mb-16"><h2 class="text-4xl font-bold mb-4">Comprehensive Automotive APIs</h2><p class="text-xl text-gray-400 max-w-2xl mx-auto">Everything you need to build automotive applications with accurate, up-to-date vehicle data</p></div><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-8 w-8" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div><h3 class="text-xl font-semibold mb-3">VIN Decode</h3><p class="text-gray-400 leading-relaxed">Decode any VIN to get comprehensive vehicle specifications, history, and technical details.</p></div><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search h-8 w-8" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg></div><h3 class="text-xl font-semibold mb-3">Plate To VIN</h3><p class="text-gray-400 leading-relaxed">Convert license plates to VIN numbers with our advanced lookup technology and database.</p></div><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-8 w-8" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg></div><h3 class="text-xl font-semibold mb-3">Stolen Vehicle Check</h3><p class="text-gray-400 leading-relaxed">Verify if a vehicle has been reported stolen with real-time database lookups and alerts.</p></div><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check h-8 w-8" aria-hidden="true"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="m9 14 2 2 4-4"></path></svg></div><h3 class="text-xl font-semibold mb-3">Vehicle Inspection</h3><p class="text-gray-400 leading-relaxed">Access periodic roadworthiness and emissions inspection records (MOT, TÜV, TK/EK) from European countries.</p></div><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list h-8 w-8" aria-hidden="true"><path d="M3 5h.01"></path><path d="M3 12h.01"></path><path d="M3 19h.01"></path><path d="M8 5h13"></path><path d="M8 12h13"></path><path d="M8 19h13"></path></svg></div><h3 class="text-xl font-semibold mb-3">Vehicle Listing</h3><p class="text-gray-400 leading-relaxed">Access comprehensive vehicle listings with detailed specifications, pricing, and availability.</p></div><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-camera h-8 w-8" aria-hidden="true"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"></path><circle cx="12" cy="13" r="3"></circle></svg></div><h3 class="text-xl font-semibold mb-3">Vehicle Photos</h3><p class="text-gray-400 leading-relaxed">High-quality vehicle images and photo galleries for enhanced user experiences.</p></div><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card h-8 w-8" aria-hidden="true"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg></div><h3 class="text-xl font-semibold mb-3">Vehicle Payments</h3><p class="text-gray-400 leading-relaxed">Calculate monthly payments, financing options, and payment estimates for any vehicle.</p></div><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calculator h-8 w-8" aria-hidden="true"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg></div><h3 class="text-xl font-semibold mb-3">Vehicle Valuation</h3><p class="text-gray-400 leading-relaxed">Vehicle price information and yearly market value estimations based on depreciation analysis.</p></div><div class="group p-8 rounded-2xl border border-gray-700 hover:border-purple-500/50 bg-gray-800/30 hover:bg-gray-800/50 transition-all duration-300 hover:scale-105"><div class="text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-column h-8 w-8" aria-hidden="true"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg></div><h3 class="text-xl font-semibold mb-3">Mileage History</h3><p class="text-gray-400 leading-relaxed">Track vehicle odometer readings and mileage history over time for maintenance and verification purposes.</p></div></div></div></section><section class="py-20 px-4 sm:px-6 lg:px-8"><div class="max-w-7xl mx-auto"><div class="grid lg:grid-cols-2 gap-12 items-center"><div><h2 class="text-4xl font-bold mb-6">Simple API Integration in<span class="text-purple-400"> Minutes</span></h2><p class="text-xl text-gray-400 mb-8 leading-relaxed">RESTful APIs with comprehensive documentation, SDKs, and examples. Get automotive data integrated into your application quickly.</p><div class="space-y-4"><div class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">RESTful API with JSON responses</span></div><div class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">SDKs for popular programming languages</span></div><div class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">Real-time data updates</span></div><div class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">99.9% uptime SLA</span></div></div></div><div class="bg-gray-800 rounded-2xl p-6 border border-gray-700"><div class="flex items-center space-x-2 mb-4"><div class="flex space-x-2"><div class="w-3 h-3 bg-red-500 rounded-full"></div><div class="w-3 h-3 bg-yellow-500 rounded-full"></div><div class="w-3 h-3 bg-green-500 rounded-full"></div></div><span class="text-sm text-gray-500 ml-4">terminal</span></div><div class="font-mono text-sm"><div class="text-gray-500">$ curl -X GET \</div><div class="text-purple-400 mt-1">  "https://api.carapi.dev/v1/vin-decode/1HGBH41JXMN109186?token=YOUR_API_KEY"</div><div class="text-gray-500 mt-4">{</div><div class="text-green-400 ml-4">"make": "Honda",</div><div class="text-green-400 ml-4">"model": "Civic",</div><div class="text-green-400 ml-4">"year": 2021,</div><div class="text-green-400 ml-4">"engine": "1.5L Turbo"</div><div class="text-gray-500">}</div></div></div></div></div></section><section id="pricing" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800/50"><div class="max-w-7xl mx-auto"><div class="text-center mb-16"><h2 class="text-4xl font-bold mb-4">Simple, Transparent Pricing</h2><p class="text-xl text-gray-400">Choose the plan that fits your needs</p></div><div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto"><div class="relative p-8 rounded-2xl border transition-all duration-300 hover:scale-105 border-gray-700 bg-gray-800/30 hover:border-gray-600"><div class="text-center mb-8"><h3 class="text-2xl font-bold mb-2">Free</h3><div class="mb-4"><span class="text-4xl font-bold">Free</span></div><p class="text-gray-400">Perfect for testing and small projects</p></div><ul class="space-y-4 mb-8"><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">100 requests/month</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">All API endpoints</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">Basic support</span></li></ul><a class="w-full py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105 block text-center border border-gray-600 hover:border-gray-500 text-gray-300 hover:text-white" href="/signin" data-discover="true">Sign In to Get Started</a></div><div class="relative p-8 rounded-2xl border transition-all duration-300 hover:scale-105 border-gray-700 bg-gray-800/30 hover:border-gray-600"><div class="text-center mb-8"><h3 class="text-2xl font-bold mb-2">Starter</h3><div class="mb-4"><span class="text-4xl font-bold">29 €</span><span class="text-gray-400">/month</span></div><p class="text-gray-400">Great for growing applications</p></div><ul class="space-y-4 mb-8"><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">5,000 requests/month</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">All API endpoints</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">Priority support</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">Advanced features</span></li></ul><a class="w-full py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105 block text-center border border-gray-600 hover:border-gray-500 text-gray-300 hover:text-white" href="/signin" data-discover="true">Sign In to Get Started</a></div><div class="relative p-8 rounded-2xl border transition-all duration-300 hover:scale-105 border-purple-500 bg-gradient-to-b from-purple-900/20 to-gray-800/50"><div class="absolute -top-4 left-1/2 transform -translate-x-1/2"><div class="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded-full text-sm font-semibold">Most Popular</div></div><div class="text-center mb-8"><h3 class="text-2xl font-bold mb-2">Professional</h3><div class="mb-4"><span class="text-4xl font-bold">89 €</span><span class="text-gray-400">/month</span></div><p class="text-gray-400">For established businesses</p></div><ul class="space-y-4 mb-8"><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">25,000 requests/month</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">All API endpoints</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">Priority support</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">Advanced analytics</span></li></ul><a class="w-full py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105 block text-center bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white" href="/signin" data-discover="true">Sign In to Get Started</a></div><div class="relative p-8 rounded-2xl border transition-all duration-300 hover:scale-105 border-gray-700 bg-gray-800/30 hover:border-gray-600"><div class="text-center mb-8"><h3 class="text-2xl font-bold mb-2">Business</h3><div class="mb-4"><span class="text-4xl font-bold">249 €</span><span class="text-gray-400">/month</span></div><p class="text-gray-400">For high-volume applications</p></div><ul class="space-y-4 mb-8"><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">100,000 requests/month</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">All API endpoints</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">Dedicated support</span></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400 flex-shrink-0" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span class="text-gray-300">SLA guarantee</span></li></ul><a class="w-full py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105 block text-center border border-gray-600 hover:border-gray-500 text-gray-300 hover:text-white" href="/signin" data-discover="true">Sign In to Get Started</a></div></div></div></section><section class="py-20 px-4 sm:px-6 lg:px-8"><div class="max-w-4xl mx-auto text-center"><h2 class="text-4xl font-bold mb-6">Ready to Build Automotive Applications?</h2><p class="text-xl text-gray-400 mb-10">Join thousands of developers using our automotive APIs to power their applications</p><div class="flex flex-col sm:flex-row gap-4 justify-center mb-12"><a href="https://carapi.dev/dashboard" class="group bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:scale-105 flex items-center justify-center space-x-2"><span>Get Your API Key</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-4 w-4 group-hover:translate-x-1 transition-transform" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></div><div class="flex justify-center space-x-8 text-gray-500"><div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-yellow-400" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><span>99.9% uptime</span></div><div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-5 w-5 text-green-400" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg><span>Enterprise security</span></div><div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database h-5 w-5 text-blue-400" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5V19A9 3 0 0 0 21 19V5"></path><path d="M3 12A9 3 0 0 0 21 12"></path></svg><span>Real-time data</span></div></div></div></section><footer class="bg-gray-900 border-t border-gray-800 py-12 px-4 sm:px-6 lg:px-8"><div class="max-w-7xl mx-auto"><div class="grid md:grid-cols-4 gap-8"><div><div class="flex items-center space-x-2 mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-car h-8 w-8 text-purple-400" aria-hidden="true"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg><span class="text-xl font-bold">CarAPI.dev</span></div><p class="text-gray-400 mb-6">Comprehensive automotive data APIs for modern applications. Reliable, fast, and developer-friendly.</p></div><div><h3 class="font-semibold mb-4">Lookup APIs</h3><ul class="space-y-3"><li><a href="https://docs.carapi.dev/endpoints/vin-decode" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">VIN Decode</a></li><li><a href="https://docs.carapi.dev/endpoints/plate-to-vin" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Plate to VIN</a></li><li><a href="https://docs.carapi.dev/endpoints/vehicle-listing" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Vehicle Listing</a></li></ul></div><div><h3 class="font-semibold mb-4">Verification &amp; Data APIs</h3><ul class="space-y-3"><li><a href="https://docs.carapi.dev/endpoints/stolen-vehicle-check" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Stolen Vehicle Check</a></li><li><a href="https://docs.carapi.dev/endpoints/vehicle-inspection" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Vehicle Inspection</a></li><li><a href="https://docs.carapi.dev/endpoints/vehicle-photos" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Vehicle Photos</a></li><li><a href="https://docs.carapi.dev/endpoints/vehicle-payments" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Vehicle Payments</a></li><li><a href="https://docs.carapi.dev/endpoints/vehicle-valuation" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Vehicle Valuation</a></li><li><a href="https://docs.carapi.dev/endpoints/mileage-history" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Mileage History</a></li></ul></div><div><h3 class="font-semibold mb-4">Resources</h3><ul class="space-y-3"><li><a href="https://docs.carapi.dev" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Documentation</a></li><li><a class="text-gray-400 hover:text-white transition-colors" href="/about" data-discover="true">About</a></li><li><button class="text-gray-400 hover:text-white transition-colors text-left">Contact</button></li></ul></div></div><div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"><p class="text-gray-400">© 2026 CarAPI.dev. All rights reserved.</p><div class="flex space-x-6 mt-4 md:mt-0"><a class="text-gray-400 hover:text-white transition-colors" href="/terms" data-discover="true">Terms</a></div></div></div></footer><div data-rht-toaster="" style="position: fixed; z-index: 9999; inset: 16px; pointer-events: none;"></div></div></div><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+  
+
+<iframe name="__privateStripeController9111" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/controller-with-preconnect-454eeced6139b0579f7afb3c65450429.html#__shared_params__[version]=basil&amp;__shared_params__[light_experiment_assignments]=%7B%22token%22%3A%2281d2e624-5b6b-420e-9cfb-1089c69775e3%22%2C%22assignments%22%3A%7B%22elements_accessory_frame_rendering_v5%22%3A%22control%22%7D%7D&amp;apiKey=pk_live_51S6xr34GaC1QcmSoas4lgmEgQXOWdDPfUCbmr4uB3nVdnwcDRCbMphUYvDIPeYXHhfTG0X43RvQYdcejcm1WT9Cv00wFsfn8wO&amp;apiVersion=2025-03-31.basil&amp;stripeJsId=81d2e624-5b6b-420e-9cfb-1089c69775e3&amp;stripeObjId=sobj-4583f60d-286a-4b22-9454-68c1c0b4ef91&amp;firstStripeInstanceCreatedLatency=39&amp;controllerCount=1&amp;isCheckout=false&amp;usingUuidV2ForStripeJsId=false&amp;stripeJsLoadTime=1772742518355&amp;manualBrowserDeprecationRollout=false&amp;mids[guid]=NA&amp;mids[muid]=NA&amp;mids[sid]=NA&amp;referrer=http%3A%2F%2Flocalhost%3A4173%2F&amp;controllerId=__privateStripeController9111" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe><iframe name="__privateStripeMetricsController9110" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=http%3A%2F%2Flocalhost%3A4173%2F&amp;title=CarAPI.dev%20-%20Automotive%20Data%20API%20Platform&amp;referrer=&amp;muid=NA&amp;sid=NA&amp;version=6&amp;preview=false&amp;__shared_params__[version]=basil" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>

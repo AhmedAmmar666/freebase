@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freebase — A directory of free tools for builders</title>
+  <meta name="description" content="A curated directory of free tools, services and software for developers, designers and indie hackers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+</head>
+<body>
+  <div class="grain-overlay"></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="brand">
+        <span class="brand-mark">◉</span>
+        <span class="brand-name">Freebase</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#tools">Directory</a>
+        <a href="#about">About</a>
+        <a href="https://github.com" target="_blank" rel="noopener" class="nav-cta">Submit a tool ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <span class="eyebrow">// {{ tools|length }} tools · curated · free forever</span>
+      <h1 class="hero-title">
+        The <span class="hl-lime">free stack</span><br/>
+        for people who <span class="hl-coral">actually ship</span>.
+      </h1>
+      <p class="hero-sub">
+        A loud, opinionated directory of zero-cost tools for hosting, databases,
+        design, AI and everything between. No bullshit pricing tables.
+      </p>
+      <div class="search-wrap">
+        <input
+          id="search"
+          type="search"
+          placeholder="Search 18+ tools — try 'postgres', 'email', 'edge'…"
+          autocomplete="off"
+        />
+        <kbd>⌘ K</kbd>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAYOUT -->
+  <div class="layout-container container">
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2 class="sidebar-title">Categories</h2>
+        <button id="sidebar-close" class="mobile-only">✕</button>
+      </div>
+      <div class="sidebar-content">
+        <button class="side-chip active" data-cat="All">All Categories</button>
+        {% for cat in sidebar_categories %}
+          <div class="side-group">
+            <button class="side-chip" data-cat="{{ cat.name }}">
+              {{ cat.name }}
+              <span class="count">{{ cat.tools_list|length }}</span>
+            </button>
+            <ul class="side-tools">
+              {% for tool in cat.tools_list %}
+                <li><a href="#card-{% if tool.host %}{{ tool.host|slugify }}{% else %}{{ tool.id }}{% endif %}">{{ tool.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <div class="mobile-bar mobile-only">
+        <button id="sidebar-toggle" class="btn-toggle">
+          <span>☰</span> Browse Categories
+        </button>
+      </div>
+
+      <main class="grid-wrap">
+        <div class="grid-dual" id="grid">
+      <div class="grid-col" id="col-1">
+        {% for group in tools %}
+          {% if forloop.counter|divisibleby:2 == False %}
+            {% include "includes/tool_card.html" %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="grid-col" id="col-2">
+        {% for group in tools %}
+          {% if forloop.counter|divisibleby:2 %}
+            {% include "includes/tool_card.html" %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <p id="empty" class="empty" hidden>No tools match that search. Try something else.</p>
+    </main>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="about" class="footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">Freebase<span class="hl-lime">.</span></p>
+        <p class="muted">Built for builders. Updated monthly.</p>
+      </div>
+      <p class="muted">© {% now "Y" %} — Made with caffeine & Django.</p>
+    </div>
+  </footer>
+
+  <script src="{% static 'js/main.js' %}" defer></script>
+</body>
+</html>
