@@ -69,7 +69,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")] 
-STATIC_ROOT = '/home/freebase/www/freebase/staticfiles'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Media (downloaded logos)
 MEDIA_URL = '/media/'
