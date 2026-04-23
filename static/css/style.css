@@ -32,7 +32,7 @@ body {
 a { color: inherit; text-decoration: none; }
 h1,h2,h3,h4 { font-family: var(--font-display); letter-spacing: -.02em; line-height: 1.05; }
 
-.container { max-width: 1280px; margin: 0 auto; padding: 0 1.25rem; }
+.container { max-width: 1600px; margin: 0 auto; padding: 0 2rem; }
 
 /* Grain overlay */
 .grain-overlay {
@@ -44,8 +44,8 @@ h1,h2,h3,h4 { font-family: var(--font-display); letter-spacing: -.02em; line-hei
 /* NAV */
 .nav { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(12px); background: rgba(26,22,18,.7); border-bottom: 1px solid var(--border); }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; }
-.brand { display: flex; align-items: center; gap: .75rem; font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; }
-.brand-logo { width: 28px; height: 28px; border-radius: 6px; }
+.brand { display: flex; align-items: center; gap: .5rem; font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; }
+.brand-mark { color: var(--lime); font-size: 1.5rem; }
 .brand-name { color: var(--fg); }
 .nav-links { display: flex; align-items: center; gap: 1.5rem; font-family: var(--font-mono); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
 .nav-links a { color: var(--muted); transition: color .2s; }
@@ -61,7 +61,7 @@ h1,h2,h3,h4 { font-family: var(--font-display); letter-spacing: -.02em; line-hei
     radial-gradient(ellipse at top left, rgba(196,242,74,.15), transparent 55%),
     radial-gradient(ellipse at bottom right, rgba(255,106,77,.12), transparent 55%);
 }
-.hero-inner { position: relative; max-width: 900px; }
+.hero-inner { position: relative; max-width: 1100px; }
 .eyebrow { font-family: var(--font-mono); font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
 .hero-title { font-size: clamp(2.5rem, 7vw, 5.5rem); font-weight: 700; margin: 1.25rem 0 1.5rem; text-wrap: balance; }
 .hl-lime { color: var(--lime); }
@@ -148,23 +148,21 @@ h1,h2,h3,h4 { font-family: var(--font-display); letter-spacing: -.02em; line-hei
 }
 
 .grid-main {
-  display: flex;
-  gap: 1.25rem;
-  align-items: flex-start;
+  column-count: 3;
+  column-gap: 1.25rem;
+  width: 100%;
 }
-.grid-col {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  min-width: 0;
+@media (max-width: 1040px) {
+  .grid-main { column-count: 2; }
 }
-@media (max-width: 640px) {
-  .grid-main { flex-direction: column; }
+@media (max-width: 720px) {
+  .grid-main { column-count: 1; }
 }
 
 /* CARD */
 .card {
+  break-inside: avoid;
+  margin-bottom: 1.25rem;
   display: flex; flex-direction: column; padding: 1.5rem;
   background: var(--surface); border: 1px solid var(--border); border-radius: 1.5rem;
   box-shadow: var(--shadow-card);
