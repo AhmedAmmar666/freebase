@@ -203,8 +203,8 @@ h1,h2,h3,h4 { font-family: var(--font-display); letter-spacing: -.02em; line-hei
 .accent-sky .glyph { color: var(--sky); text-shadow: 0 0 30px var(--sky); }
 
 .thumb-meta {
-  position: absolute; bottom: .75rem; left: .75rem; right: .75rem;
   display: flex; justify-content: space-between; align-items: center;
+  margin: .75rem 0 1rem;
 }
 .cat-pill {
   font-family: var(--font-mono); font-size: .625rem; text-transform: uppercase; letter-spacing: .12em;

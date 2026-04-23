@@ -11,14 +11,14 @@
     {% else %}
       <span class="glyph">{{ group.glyph }}</span>
     {% endif %}
-    <div class="thumb-meta">
-      <span class="cat-pill">{{ group.category }}</span>
-      <span class="host">{{ group.host }}</span>
-    </div>
   </div>
   
   <h3 class="card-title">{{ group.name }}</h3>
-  
+
+  <div class="thumb-meta">
+    <span class="cat-pill">{{ group.category }}</span>
+  </div>
+
   {% if group.is_grouped %}
     <ul class="tool-list">
       {% for t in group.tools %}
